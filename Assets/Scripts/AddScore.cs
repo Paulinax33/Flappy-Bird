@@ -13,6 +13,7 @@ public class AddScore : MonoBehaviour
         {
             Destroy(coin);
         }
+        GameManager.Instance.UpdateScore2();
     }
     
 }
